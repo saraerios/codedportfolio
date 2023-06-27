@@ -1,0 +1,191 @@
+body {
+    background-color: #FFFEFE;
+  }
+  
+  
+  body {
+    margin: 50;
+    font-family: Poppins;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #FAFAF8;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #1e1d1d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #dfdfd6;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #B8B8AB;
+    color: white;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+  
+  .topright {
+    display: block;
+    float: right;
+    background-color: #FAFAF8;
+    padding-top: 26px;
+  }
+  .saraselfie {
+    float: left;
+    padding-left: 80px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box {
+    background-color: #FAFAF8;
+  }
+  
+  
+  .headermain h1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 37px;
+    font-family: 'Poppins';
+  }
+  .headermain h2 {
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .header h3 {
+  display: block;
+  font-family: 'Poppins';
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 200px;
+  font-size: 32px;
+  }
+  .header h4  {
+    display: block;
+    font-family: 'Poppins';
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 15px;
+  }
+  .header h5 {
+    display: block;
+    font-family: 'Poppins';
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 20px;
+  }
+  .p0 {
+    display: block;
+    font-family: 'Poppins';
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    margin-left: 50px;
+  }
+  .p1 {
+    display: block;
+    font-family: 'Poppins';
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+  }
+  .p2 {
+    display: block;
+    font-family: 'Poppins';
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+  }
+  .p3 {
+    display: block;
+    font-family: 'Poppins';
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+  }
+  .p4 {
+    display: block;
+    font-family: 'Poppins';
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+  }
+  .row {
+    display: flex;
+  }
+  
+  
+  .column {
+    flex: 33.33%;
+    padding: 20px;
+    white-space: 5px;
+    justify-content: space-evenly
+  }
+  
+  
+  button {
+    color: #B8B8AB;
+    color: black;
+    outline: #B8B8AB;
+  }
+  .heroImg footer {
+    background-color: #FAFAF8;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .p5 {
+    vertical-align: middle;
+  }
+  .footerlogo {
+    float: right;
+  }
+  
+  
